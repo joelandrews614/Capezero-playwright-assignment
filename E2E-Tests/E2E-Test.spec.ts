@@ -40,7 +40,7 @@ test.describe.serial("Amazon UI Functionality E2E Tests", () => {
 
   })
 
-  test.only("E2E test[4]: Cart Functionality", async ({homePage, resultsPage, page}) => {
+  test("E2E test[4]: Cart Functionality", async ({homePage, resultsPage, page}) => {
 
     await homePage.searchAndValidateProduct("Shoe");
 
