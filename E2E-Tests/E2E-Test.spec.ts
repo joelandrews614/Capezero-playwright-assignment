@@ -47,6 +47,7 @@ test.describe.serial("Amazon UI Functionality E2E Tests", () => {
     await page.waitForTimeout(10000);
     await resultsPage.clickPumaFilterLi();
 
+    await page.waitForTimeout(10000);
     await resultsPage.addPumaToCartandValidate();
 
   })
